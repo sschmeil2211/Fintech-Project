@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "456003111414",
+    "project_id": "brubankfirebase",
+    "storage_bucket": "brubankfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456003111414:android:99149621833e6b3e2f9fd7",
+        "android_client_info": {
+          "package_name": "com.brubankfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456003111414-gp7pkm823k1bli7q2uefib7dvk3smgof.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brubankfirebase",
+            "certificate_hash": "44325df80bdcc71d22ca76724e3011c6b6360704"
+          }
+        },
+        {
+          "client_id": "456003111414-sbl64e3vgcl482mueke5i6br36ap6krn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHFXmiCSMkXBaLAo0V5GT7-JCt-_N949E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456003111414-sbl64e3vgcl482mueke5i6br36ap6krn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

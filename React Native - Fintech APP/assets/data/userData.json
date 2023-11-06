@@ -1,0 +1,230 @@
+[
+    {
+        "id": "u001-aaaa-bbbb-cccc",
+        "userColor": "#FF0000",
+        "firstName": "John",
+        "lastName": "Doe",
+        "user_email": "john@example.com",
+        "dni": "1234567",
+        "balance": 1500.25,
+        "pinCode": "123456",
+        "banks": [
+            {
+                "name": "ICBC",
+                "cvu": "0000846752398765213479"
+            },
+            {
+                "name": "HSBC",
+                "cvu": "0000408735692518376294"
+            }
+        ],
+        "movements": [
+            {
+                "cardType": "appMovement",
+                "description": "Interés mensual ganado",
+                "date": "15/07/2023 10:30",
+                "amount": 50.0,
+                "movementType": "ingress"
+            },
+            {
+                "cardType": "userMovement",
+                "description": "Emily Brown",
+                "userColor": "#0000FF",
+                "date": "16/07/2023 14:45",
+                "amount": 20.0,
+                "movementType": "degress",
+                "name": "ICBC",
+                "cvu": "0000237896504381927615"
+            },
+            {
+                "cardType": "userMovement",
+                "description": "Jane Smith",
+                "userColor": "#00FF00",
+                "date": "17/07/2023 08:20",
+                "amount": 30.0,
+                "movementType": "degress",
+                "name": "BankOfAmerica",
+                "cvu": "0000693482157109238465"
+            },
+            {
+                "cardType": "userMovement",
+                "description": "Michael Johnson",
+                "userColor": "#0000FF",
+                "date": "18/07/2023 12:15",
+                "amount": 40.0,
+                "movementType": "degress",
+                "name": "JPMorganChase",
+                "cvu": "0000971243586320581749"
+            },
+            {
+                "cardType": "userMovement",
+                "description": "Emily Brown",
+                "userColor": "#0000FF",
+                "date": "18/04/2023 12:15",
+                "amount": 40.0,
+                "movementType": "ingress",
+                "name": "BankOfAmerica",
+                "cvu": "0000875632149062378541"
+            }
+        ]
+    },
+    {
+        "id": "u002-dddd-eeee-ffff",
+        "userColor": "#00FF00",
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "user_email": "jane@example.com",
+        "dni": "2345678",
+        "balance": 2800.75,
+        "pinCode": "789012",
+        "banks": [
+            {
+                "name": "BankOfAmerica",
+                "cvu": "0000693482157109238465"
+            }
+        ],
+        "movements": [
+            {
+                "cardType": "userMovement",
+                "description": "John Doe",
+                "userColor": "#FF0000",
+                "date": "16/07/2023 11:30",
+                "amount": 70.0,
+                "movementType": "degress",
+                "name": "HSBC",
+                "cvu": "0000408735692518376294"
+            },
+            {
+                "cardType": "userMovement",
+                "description": "Michael Johnson",
+                "userColor": "#0000FF",
+                "date": "17/07/2023 15:20",
+                "amount": 60.0,
+                "movementType": "degress",
+                "name": "JPMorganChase",
+                "cvu": "0000971243586320581749"
+            },
+            {
+                "cardType": "userMovement",
+                "description": "Emily Brown",
+                "userColor": "#0000FF",
+                "date": "18/07/2023 13:45",
+                "amount": 50.0,
+                "movementType": "degress",
+                "name": "BankOfAmerica",
+                "cvu": "0000875632149062378541"
+            }
+        ]
+    },
+    {
+        "id": "u003-gggg-hhhh-iiii",
+        "userColor": "#0000FF",
+        "firstName": "Michael",
+        "lastName": "Johnson",
+        "user_email": "michael@example.com",
+        "dni": "3456789",
+        "balance": 500.0,
+        "pinCode": "345678",
+        "banks": [
+            {
+                "name": "JPMorganChase",
+                "cvu": "0000971243586320581749"
+            }
+        ],
+        "movements": [
+            {
+                "cardType": "appMovement",
+                "description": "Interés mensual ganado",
+                "date": "15/07/2023 16:00",
+                "amount": 20.0,
+                "movementType": "ingress"
+            },
+            {
+                "cardType": "userMovement",
+                "description": "John Doe",
+                "userColor": "#FF0000",
+                "date": "16/07/2023 10:45",
+                "amount": 30.0,
+                "movementType": "degress",
+                "name": "ICBC",
+                "cvu": "0000846752398765213479"
+            },
+            {
+                "cardType": "userMovement",
+                "description": "Jane Smith",
+                "userColor": "#00FF00",
+                "date": "17/07/2023 11:50",
+                "amount": 40.0,
+                "movementType": "degress",
+                "name": "BankOfAmerica",
+                "cvu": "0000693482157109238465"
+            },
+            {
+                "cardType": "userMovement",
+                "description": "Emily Brown",
+                "userColor": "#0000FF",
+                "date": "18/07/2023 12:35",
+                "amount": 50.0,
+                "movementType": "degress",
+                "name": "JPMorganChase",
+                "cvu": "0000342156890725409836"
+            }
+        ]
+    },
+    {
+        "id": "u004-jjjj-kkkk-llll",
+        "userColor": "#0000FF",
+        "firstName": "Emily",
+        "lastName": "Brown",
+        "user_email": "emily@example.com",
+        "dni": "4567890",
+        "balance": 700.5,
+        "pinCode": "901234",
+        "banks": [
+            {
+                "name": "ICBC",
+                "cvu": "0000237896504381927615"
+            },
+            {
+                "name": "BankOfAmerica",
+                "cvu": "0000875632149062378541"
+            },
+            {
+                "name": "JPMorganChase",
+                "cvu": "0000342156890725409836"
+            }
+        ],
+        "movements": [
+            {
+                "cardType": "userMovement",
+                "description": "John Doe",
+                "userColor": "#FF0000",
+                "date": "16/07/2023 09:20",
+                "amount": 10.0,
+                "movementType": "degress",
+                "name": "ICBC",
+                "cvu": "0000846752398765213479"
+            },
+            {
+                "cardType": "userMovement",
+                "description": "Jane Smith",
+                "userColor": "#00FF00",
+                "date": "17/07/2023 10:15",
+                "amount": 20.0,
+                "movementType": "degress",
+                "name": "BankOfAmerica",
+                "cvu": "0000693482157109238465"
+            },
+            {
+                "cardType": "userMovement",
+                "description": "Michael Johnson",
+                "userColor": "#0000FF",
+                "date": "18/07/2023 11:10",
+                "amount": 30.0,
+                "movementType": "degress",
+                "name": "JPMorganChase",
+                "cvu": "0000971243586320581749"
+            }
+        ]
+    }
+]
